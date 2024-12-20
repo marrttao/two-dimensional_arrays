@@ -15,7 +15,7 @@ int main() {
     array[0][0] = first_element;
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
-            if (i == 0 && j == 0) continue; //
+            if (i == 0 && j == 0) continue; 
             if (j == 0) {
                 array[i][j] = array[i - 1][cols - 1] * 2;
             }
